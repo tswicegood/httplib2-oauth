@@ -6,3 +6,4 @@ class TwitterHttp(OAuthHttp):
     access_token_url = 'http://twitter.com/oauth/access_token'
     authorization_url = 'http://twitter.com/oauth/authorize'
     callback_url = None
+    default_scheme = 'https'
